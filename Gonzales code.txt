@@ -1,0 +1,22 @@
+fun main() {
+    val age = 22*365
+    val name = "King Gonzales"
+    println ("Happy Brithday $name")
+    println("I am $age \n")
+    println("$age is the best age to learn koltin!\n")
+    // lets print
+    println("   ,,,,,   ")
+    println("   |||||   ")
+    println(" =========")
+    println("@@@@@@@@@@@")
+    println("{~@~@~@~@~}")
+    println("@@@@@@@@@@@")
+    println("")
+    println("$name is ready $age days old")
+}
+fun printBorder(border:String){
+    repeat(40){
+    print("=")
+    }
+    println()
+}
